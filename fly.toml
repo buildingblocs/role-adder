@@ -1,0 +1,12 @@
+# fly.toml app configuration file generated for role-adder on 2025-03-17T00:43:19+08:00
+#
+# See https://fly.io/docs/reference/configuration/ for information about how to use this file.
+#
+
+app = 'role-adder'
+primary_region = 'sin'
+
+[build]
+
+[[vm]]
+  size = 'shared-cpu-1x'
