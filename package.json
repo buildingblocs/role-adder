@@ -1,0 +1,14 @@
+{
+    "name": "discord-role-bot",
+    "version": "1.0.0",
+    "description": "A Discord bot that assigns roles based on username input",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "discord.js": "^14.11.0",
+      "dotenv": "^16.0.3"
+    }
+  }
+  
